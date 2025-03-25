@@ -103,15 +103,81 @@ a {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px 20px;
+    gap: 40px 15px;
 
 }
 
 .col-30 {
-
-    background-color: aqua;
-    border: #1A1A1A solid 3px;
+    /* background-color: aqua;
+    border: #1A1A1A solid 3px; */
     width: 30%;
 }
 
+
+/* card part */
+.card {
+    position: relative;
+}
+
+.note {
+    position: absolute;
+    left: 0;
+    top: 85%;
+}
+
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 25px;
+    padding: 5px 10px;
+    background-color: #ffffff;
+}
+
+
+.promo {
+    padding: 5px 10px;
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.green-bg {
+    background-color: #008000;
+
+
+}
+
+.red-bg {
+    background-color: #ff0000;
+
+}
+
+.description h3 {
+    font-size: 1rem;
+}
+
+.description strong {
+    color: #ff0000;
+    margin-right: 5px;
+}
+
+
+.img2 {
+    display: none;
+}
+
+.card:hover .img2 {
+    display: block;
+}
+
+.card:hover .img1 {
+    display: none;
+}
+
 /* FOOTER */
+
+.footer{
+    background-color: var(--color-foot-bg);
+    height: 200px;
+}
