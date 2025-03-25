@@ -50,6 +50,11 @@ a {
     padding-bottom: 50px;
 }
 
+
+.my-10 {
+    margin-bottom: 10px;
+}
+
 /* HEADER */
 
 .header {
@@ -91,7 +96,7 @@ a {
 
 .flex-list2 {
     display: flex;
-    flex-direction: row-reverse;
+    justify-content: flex-end;
 
     li {
         margin-left: 10px;
@@ -104,6 +109,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     gap: 40px 15px;
+    justify-content: space-between;
 
 }
 
@@ -177,7 +183,25 @@ a {
 
 /* FOOTER */
 
-.footer{
+.footer {
     background-color: var(--color-foot-bg);
-    height: 200px;
+    color: var(--color-foot-txt);
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.flex-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.information ul {
+    font-size: 0.8rem;
+
+}
+
+.external-link {
+    text-align: center;
 }
