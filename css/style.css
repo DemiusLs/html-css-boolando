@@ -111,7 +111,8 @@ a {
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 40px 15px;
+    /* gap: 40px 15px;  */
+
     justify-content: space-between;
 
 }
@@ -120,6 +121,7 @@ a {
     /* background-color: aqua;
     border: #1A1A1A solid 3px; */
     width: 30%;
+    margin-bottom: 30px;
 }
 
 
@@ -131,7 +133,7 @@ a {
 .note {
     position: absolute;
     left: 0;
-    top: 85%;
+    bottom: 20%;
 }
 
 .heart {
@@ -177,7 +179,7 @@ a {
 }
 
 .card:hover .img2 {
-    display: block;
+    display: inline-block;
 }
 
 .card:hover .img1 {
